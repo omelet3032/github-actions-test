@@ -1,0 +1,13 @@
+name: release-test
+
+on: push
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name : hello
+              run : echo "github actions test!"
+
+    
